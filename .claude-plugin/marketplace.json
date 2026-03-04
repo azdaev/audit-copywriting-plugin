@@ -10,7 +10,7 @@
   "plugins": [
     {
       "name": "audit-copywriting",
-      "source": ".",
+      "source": "./",
       "description": "Audit frontend copywriting for consistency, clarity, and correctness. Catches wrong values, mixed languages, misleading labels, and terminology drift.",
       "version": "1.0.0"
     }
