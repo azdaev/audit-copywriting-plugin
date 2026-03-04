@@ -13,14 +13,19 @@ A Claude Code plugin that audits frontend copywriting for consistency, clarity, 
 
 ## Install
 
-```bash
-claude plugin install audit-copywriting@<marketplace>
+**Step 1**: Add the marketplace (one-time):
+```
+/plugin marketplace add azdaev/audit-copywriting-plugin
 ```
 
-Or test locally:
+**Step 2**: Install the plugin:
+```
+/plugin install audit-copywriting@azdaev-plugins
+```
 
+Or test locally without installing:
 ```bash
-claude --plugin-dir ./audit-copywriting-plugin
+claude --plugin-dir /path/to/audit-copywriting-plugin
 ```
 
 ## Usage
