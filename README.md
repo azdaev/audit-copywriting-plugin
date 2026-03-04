@@ -1,6 +1,6 @@
 # audit-copywriting
 
-A [Claude Code](https://docs.anthropic.com/en/docs/claude-code) plugin that audits frontend copywriting for consistency, clarity, and correctness.
+A Claude Code plugin that audits frontend copywriting for consistency, clarity, and correctness.
 
 ## What it catches
 
@@ -13,9 +13,7 @@ A [Claude Code](https://docs.anthropic.com/en/docs/claude-code) plugin that audi
 
 ## Install
 
-Requires [Claude Code](https://docs.anthropic.com/en/docs/claude-code) CLI.
-
-**Step 1** — Add the marketplace (one-time, run inside Claude Code):
+**Step 1** — Add the marketplace (one-time):
 ```
 /plugin marketplace add azdaev/audit-copywriting-plugin
 ```
@@ -25,14 +23,9 @@ Requires [Claude Code](https://docs.anthropic.com/en/docs/claude-code) CLI.
 /plugin install audit-copywriting@azdaev-plugins
 ```
 
-**Alternative**: run locally without installing:
-```bash
-claude --plugin-dir /path/to/audit-copywriting-plugin
-```
-
 ## Usage
 
-Inside Claude Code, run:
+Run inside Claude Code:
 ```
 /audit-copywriting src/
 /audit-copywriting admin/src/**/*.tsx
