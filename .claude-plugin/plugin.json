@@ -1,0 +1,12 @@
+{
+  "name": "audit-copywriting",
+  "description": "Audit frontend copywriting for consistency, clarity, and correctness. Catches wrong values, mixed languages, misleading labels, and terminology inconsistencies.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Amady Azdaev",
+    "url": "https://github.com/azdaev"
+  },
+  "repository": "https://github.com/azdaev/audit-copywriting-plugin",
+  "license": "MIT",
+  "keywords": ["copywriting", "ux", "audit", "i18n", "translations", "labels", "frontend"]
+}
