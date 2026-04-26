@@ -1,0 +1,4 @@
+interface:
+  display_name: "Audit Copywriting"
+  short_description: "Audit UI copy for clarity and consistency"
+  default_prompt: "Use $audit-copywriting to audit the codebase user-facing text and report concrete copy fixes by severity."
